@@ -35,6 +35,12 @@
     }
   }
 
+  @media (max-width: 850px) {
+    .hero {
+        height: 700px;
+    }
+}
+
 @media (max-width: 700px) {
     .hero {
         height: 800px;
@@ -70,6 +76,6 @@
 
 @media (max-width: 350px) {
     .hero {
-        height: 900px;
+        height: 950px;
     }
 }

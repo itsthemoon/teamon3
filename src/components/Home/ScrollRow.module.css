@@ -3,11 +3,13 @@
 }
 
 .prevNxtBtnContainer {
-    padding-top: 5%;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-top: 3%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 3%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .viewAllBtn {
@@ -16,5 +18,35 @@
 }
 
 .scrollRowBox {
-    background-color: blue;
+    background-color: white;
+}
+
+.rightArrow {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+
+.leftArrow {
+    height: 20px;
+    width: 20px;
+}
+
+.viewAll {
+    background-color: transparent;
+    outline: none;
+    background-repeat: no-repeat;
+    border: none;
+    font-size: 1.2em;
+}
+
+.sectionTitle {
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+@media (max-width: 600px) {
+    .prevNxtBtnContainer {
+        padding-top: 9%;
+    }
 }

@@ -5,6 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import ScrollRowCSS from "./ScrollRow.module.css";
 import './ScrollRow.css';
 import React, { useRef  } from 'react'
+import rightArrow from "../../images/right-arrow.png";
+import leftArrow from "../../images/left-arrow.png";
+
+
 
 function ScrollRow(props) {
     const customSlider = useRef();
@@ -55,7 +59,7 @@ function ScrollRow(props) {
       
     return (
         <div className={ScrollRowCSS.container}>
-            <h2> Multiple items </h2>
+            <h2 className={ScrollRowCSS.sectionTitle}> Multiple items </h2>
             <Slider {...settings} ref={customSlider}>
               <ScrollRowBox />
               <ScrollRowBox />
@@ -67,16 +71,22 @@ function ScrollRow(props) {
 
             <div className={ScrollRowCSS.prevNxtBtnContainer}>
                 <div className={ScrollRowCSS.viewAllBtn}>
-                <button className="button" onClick={null}>
+                <button className={ScrollRowCSS.viewAll} onClick={null}>
                     View All
                 </button>
                 </div>
-                <button className="button" onClick={previous}>
-                    Previous
-                </button>
-                <button className="button" onClick={next}>
-                    Next
-                </button>
+                <img
+                src={leftArrow}
+                className={ScrollRowCSS.leftArrow}
+                alt="left arrow"
+                onClick={previous}
+                />
+                <img
+                src={rightArrow}
+                className={ScrollRowCSS.rightArrow}
+                alt="right arrow"
+                onClick={next}
+                />
             </div>
 
         </div>

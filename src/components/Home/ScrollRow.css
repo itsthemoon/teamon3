@@ -10,3 +10,22 @@
     width: 25vw;
     height: 35vh;
   }
+
+  @media (max-width: 700px) {
+    .slick-slide > div {
+      width: 25vw;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .slick-slide > div {
+      width: 35vw;
+    }
+  }
+
+  @media (max-width: 475px) {
+    .slick-slide > div {
+      width: 50vw;
+    }
+  }
+  

@@ -4,7 +4,8 @@
     margin-top: 50px;
     margin: auto;
     padding: 0px;
-    background: red;
+    background: white;
+    border: solid black;
     border-radius: 10px;
     width: 25vw;
     height: 35vh;

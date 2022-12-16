@@ -1,0 +1,11 @@
+.slick-slide > div {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    margin: auto;
+    padding: 0px;
+    background: red;
+    border-radius: 10px;
+    width: 25vw;
+    height: 35vh;
+  }

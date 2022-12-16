@@ -1,0 +1,20 @@
+.container {
+    
+}
+
+.prevNxtBtnContainer {
+    padding-top: 5%;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.viewAllBtn {
+    display: flex;
+    margin-right: auto;
+}
+
+.scrollRowBox {
+    background-color: blue;
+}

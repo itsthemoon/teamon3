@@ -1,0 +1,10 @@
+TODO
+
+FINISH HOME PAGE:
+1. make the box component for the scrollrowbox
+2. make the button components for the scroll row
+3. align everything and make it responsive 
+4. add animation as someone scrolls down the page
+
+
+1. fix the header box so that when the flex box is in row the arrow is on the same position of the box

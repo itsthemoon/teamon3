@@ -12,6 +12,7 @@ import leftArrow from "../../images/left-arrow.png";
 
 function ScrollRow(props) {
     const customSlider = useRef();
+    const title = props.title;
 
     const next = () => {
         customSlider.current.slickNext()
@@ -59,7 +60,7 @@ function ScrollRow(props) {
       
     return (
         <div className={ScrollRowCSS.container}>
-            <h2 className={ScrollRowCSS.sectionTitle}> Multiple items </h2>
+            <h2 className={ScrollRowCSS.sectionTitle}>{title} </h2>
             <Slider {...settings} ref={customSlider}>
               <ScrollRowBox />
               <ScrollRowBox />

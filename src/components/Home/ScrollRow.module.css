@@ -24,7 +24,7 @@
 .rightArrow {
     height: 20px;
     width: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .leftArrow {
@@ -43,6 +43,7 @@
 .sectionTitle {
     padding-top: 3%;
     padding-left: 4%;
+    padding-bottom: 2%;
 }
 
 @media (max-width: 600px) {

@@ -24,9 +24,9 @@ function Home() {
                     <HeaderBoxes header={secondHeader} text={secondText} />
                 </div>
         </div>
-            <ScrollRow />
-            <ScrollRow />
-            <ScrollRow />
+            <ScrollRow title={"Section 1"}/>
+            <ScrollRow title={"Section 2"}/>
+            <ScrollRow title={"Section 3"}/>
         </>
     )
 }

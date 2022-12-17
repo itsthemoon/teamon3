@@ -1,6 +1,6 @@
 import HeaderBoxes from "../components/Home/HeaderBoxes";
 import ScrollRow from "../components/Home/ScrollRow";
-import './Home.css';
+import './styles/Home.css';
 
 function Home() {
     const firstHeader = "Have your own startup?";

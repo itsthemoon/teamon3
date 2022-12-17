@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+  .inner-1 {
+    border-right: 1px solid black;
+  }
+  
+  .left,
+  .right {
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .left {
+    border-right: 1px solid black;
+  }

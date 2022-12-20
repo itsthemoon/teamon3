@@ -1,21 +1,16 @@
+import StartupOppCard from "./StartupOppCard";
+
 function StartupOpportunities() {
     return (
         <div>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
-            <p>StartupOpportunities</p>
+            <StartupOppCard />
+            <StartupOppCard />
+            <StartupOppCard />
+            <StartupOppCard />
+            <StartupOppCard />
+            <StartupOppCard />
+            <StartupOppCard />
+            <StartupOppCard />
         </div>
     )
 }

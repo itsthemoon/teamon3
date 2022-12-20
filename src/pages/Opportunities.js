@@ -7,9 +7,10 @@ import StartupDisplay from "../components/Opportunities/StartupDisplay";
 function Opportunities() {
     return (
         <>
-        <SearchOpportunities />
+        
         <div className={OpportunitiesCSS.container}>
             <div className={OpportunitiesCSS.left}>
+                <SearchOpportunities/>
                 <StartupOpportunities />
             </div>
             <div className={OpportunitiesCSS.right}>

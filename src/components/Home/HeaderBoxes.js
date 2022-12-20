@@ -1,4 +1,4 @@
-import HeaderBoxesCSS from "./HeaderBoxes.module.css";
+import HeaderBoxesCSS from "./homeStyles/HeaderBoxes.module.css";
 import rightArrow from "../../images/right-arrow.png";
 
 function HeaderBoxes(props) {

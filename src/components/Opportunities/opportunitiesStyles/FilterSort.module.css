@@ -1,0 +1,12 @@
+select {
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.mainDiv {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}

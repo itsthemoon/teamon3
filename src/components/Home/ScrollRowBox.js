@@ -1,4 +1,4 @@
-import ScrollRowCSS from "./ScrollRow.module.css";
+import ScrollRowCSS from "./homeStyles/ScrollRow.module.css";
 
 function ScrollRowBox(props) {
     return (

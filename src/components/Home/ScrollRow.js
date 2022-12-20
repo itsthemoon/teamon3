@@ -2,13 +2,11 @@ import Slider from "react-slick";
 import ScrollRowBox from "./ScrollRowBox";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ScrollRowCSS from "./ScrollRow.module.css";
-import './ScrollRow.css';
+import ScrollRowCSS from "./homeStyles/ScrollRow.module.css";
+import './homeStyles/ScrollRow.css';
 import React, { useRef  } from 'react'
 import rightArrow from "../../images/right-arrow.png";
 import leftArrow from "../../images/left-arrow.png";
-
-
 
 function ScrollRow(props) {
     const customSlider = useRef();

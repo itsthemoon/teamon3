@@ -1,21 +1,10 @@
+import StartupDisplayCard from "./StartupDisplayCard";
+
+
 function StartupDisplay() {
     return(
         <div>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
-            <p>startup display</p>
+            <StartupDisplayCard />
         </div>
     )
 }

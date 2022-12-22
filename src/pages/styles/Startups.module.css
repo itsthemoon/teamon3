@@ -1,0 +1,8 @@
+.startups {
+  position: relative;
+  display: flex;
+}
+
+.startupPreviews {
+  margin-left: 200px;
+}

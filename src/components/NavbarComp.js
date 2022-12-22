@@ -3,9 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import Home from "../pages/Home.js" 
-import Opportunities from "../pages/Opportunities.js" 
-import Startups from "../pages/Startups.js" 
+import Home from "../pages/Home.js" ;
+import Opportunities from "../pages/Opportunities.js" ;
+import Startups from "../pages/Startups.js"; 
+import JoinATeam from '../pages/JoinATeam.js';
+import BuildYourTeam from '../pages/BuildYourTeam.js';
 
 
 
@@ -33,8 +35,8 @@ function NavbarComp () {
                     </Navbar.Collapse>
                     <Navbar.Collapse className="justify-content-end">
                         <Nav className="">
-                            <Nav.Link as={Link} to={"/"}>Join A Team</Nav.Link>
-                            <Nav.Link as={Link} to={"/"}>Build Your Team</Nav.Link>
+                            <Nav.Link as={Link} to={"/joinateam"}>Join A Team</Nav.Link>
+                            <Nav.Link as={Link} to={"/buildyourteam"}>Build Your Team</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
@@ -44,6 +46,9 @@ function NavbarComp () {
                     <Route path="/home" element={<Home />} />
                     <Route path="/opportunities" element={<Opportunities />} />
                     <Route path="/startups" element={<Startups />} />
+                    <Route path="/joinateam" element={<JoinATeam />} />
+                    <Route path="/buildyourteam" element={<BuildYourTeam />} />
+
                 </Routes>
             </div>
         </Router>
